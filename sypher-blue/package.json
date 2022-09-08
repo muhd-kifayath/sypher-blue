@@ -1,0 +1,37 @@
+{
+  "name": "sypher-blue",
+  "displayName": "Sypher Blue",
+  "description": "Got bored with the available color themes. So created one on my own. Cool right. Install and use it. It may be bit off at places please don't mind it. I will try to improve as much as I can.",
+  "version": "1.0.0",
+  "publisher": "Sypher",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "repository" : {
+      "type": "git",
+      "url": "https://github.com/muhd-kifayath/sypher-blue"
+  },
+  "keywords":[
+    "theme",
+    "sypher",
+    "sypher blue",
+    "sypher-blue",
+    "thesypherblue",
+    "blue",
+    "Sypher Blue",
+    "Sypher-Blue"
+  ],
+  "categories": [
+    "Themes"
+  ],
+
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sypher blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sypher blue-color-theme.json"
+      }
+    ]
+  }
+}
